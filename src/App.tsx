@@ -1,11 +1,13 @@
-
+import Header from "./pages/Home";
+import GlobalStyle from "./styles/global";
 
 function App() {
   return (
     <>
-    <h1> Trucão</h1>
+    	<Header />
+			<GlobalStyle />
     </>
-       
+
   );
 }
 
