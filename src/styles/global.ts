@@ -24,5 +24,12 @@ export default createGlobalStyle`
 		cursor: pointer;
 	}
 
+	.Conteiner{
+		display:flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		padding: 32px 0;
+	}
 `;
 
